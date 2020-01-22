@@ -1,0 +1,63 @@
+body {
+    font-family: arial, helvetica, serif;
+}
+
+a{
+    color:black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    float: left;
+}  
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+.left{
+    position: fixed;
+    left: 30px;
+}
+
+.right{
+    position: fixed;
+    right: 30px;
+}
+
+input{
+    width: 450px;
+}
+
+.button{
+    background-color: lightgrey;
+}
+
+.bottom1{
+    background-color: lightgrey;
+    position: fixed;
+    top: 690px;
+    width: 100%;
+}
+
+.bottom2{
+    background-color: lightgrey;
+    position: fixed;
+    top: 740px;
+    width: 100%;
+    font-size: smaller;
+}
+
+.bottom3{
+    background-color: lightgrey;
+    position: fixed;
+    top: 740px;
+    right: 0px;
+    font-size: smaller;
+}
